@@ -4,8 +4,6 @@
 
 #endif
 
-#include <stdio.h>
-
 #define NO_FITTED_BLOCK (void*) -1
 
 struct block {
