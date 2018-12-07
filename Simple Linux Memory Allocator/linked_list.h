@@ -1,8 +1,5 @@
-#define LINKED_LIST
 #ifndef LINKED_LIST
-
-
-#endif
+#define LINKED_LIST
 
 #define NO_FITTED_BLOCK (void*) -1
 
@@ -51,3 +48,5 @@ void *fnd_blk_by_sz(struct block *tail, unsigned size_lim[]) {
 
   return NO_FITTED_BLOCK;
 }
+
+#endif
